@@ -4,11 +4,11 @@ def is_anagram(word1, word2):
     list_word2 = list(word2)
     list_word2.sort()
     if list_word1 == list_word2:
-        print("True")
+        #print("True")
         return True
-    else:
-        print("False")
+    #else:
+        #print("False")
     return False
 
 
-is_anagram("typhoon", "opython")
+print(is_anagram("typhoon", "opython"))
